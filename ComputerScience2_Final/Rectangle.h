@@ -23,12 +23,7 @@ public:
 	void setWidth(int width);
 	void setHeight(int height);
 
-
-	// Calculates Area
-	int getArea(void)
-	{
-		return width * height;
-	}
+	Rectangle operator+(const Rectangle& R);
 };
 
 // Constructors
@@ -43,10 +38,11 @@ Rectangle::Rectangle(int width, int height) : Polygon("Rectangle", "Description"
 	this->height = height;
 }
 
-Rectangle operator+(const Rectangle R) {
+Rectangle Rectangle::operator+(const Rectangle& R) {
 	Rectangle Rec;
-	Rec.getWidth = this->getwidth() + R.getWidth();
-	Rec.getHeight = this->getHeight() + R.getHeight();
+	Rec.setWidth(getWidth() + R.width);
+	Rec.setHeight(getHeight() + R.height);
+	return Rec;
 }
 
 // Getters
@@ -57,6 +53,12 @@ int Rectangle::getWidth()
 int Rectangle::getHeight()
 {
 	return height;
+}
+
+// Calculates Area
+int Rectangle::getArea()
+{
+	return this->width * this->height;
 }
 
 // Setters

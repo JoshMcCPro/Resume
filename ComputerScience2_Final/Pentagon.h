@@ -25,12 +25,7 @@ public:
 	void setApothemL(int newApothemL);
 	void setSideL(int newSideL);
 
-
-	// Calculates Area
-	int getArea(void)
-	{
-		return ((2.5 * sideL) * apothemL);
-	}
+	Pentagon operator+(const Pentagon& P);
 };
 
 // Constructors
@@ -45,11 +40,11 @@ Pentagon::Pentagon(int sideL, int apothemL) : Polygon("Pentagon","Description",1
 	this->sideL = sideL;
 }
 
-Pentagon operator+(const Pentagon P) {
+Pentagon Pentagon::operator+(const Pentagon& P) {
 	Pentagon Pen;
-	Pen.getApothemL = getApothemL() + P.getApothemL();
-	Pen.getSideL = getSideL() + P.getSideL();
-
+	Pen.setApothemL(getApothemL() + P.apothemL);
+	Pen.setSideL(getSideL() + P.sideL);
+	return Pen;
 }
 
 // Getters
@@ -60,6 +55,12 @@ int Pentagon::getSideL()
 int Pentagon::getApothemL()
 {
 	return apothemL;
+}
+
+// Calculates Area
+int Pentagon::getArea()
+{
+	return ((2.5 * sideL) * apothemL);
 }
 
 // Setters

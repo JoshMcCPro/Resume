@@ -27,11 +27,7 @@ public:
 	void setSide3(int side3);
 
 
-	// Calculates Area
-	int getArea(void) {
-		int p = getPerimeter();
-		return sqrt(p * (p - side1) * (p - side2) * (p - side3));
-	}
+	Triangle operator+(const Triangle& t);
 
 };
 
@@ -48,13 +44,6 @@ Triangle::Triangle(int side1, int side2, int side3) : Polygon("Triangle","Descri
 	this->side3 = side3;
 }
 
-Triangle operator+(const Triangle t) {
-	Triangle tri;
-	tri.getSide1 = getSide1() + t.getSide1();
-	tri.getSide2 = getSide2() + t.getSide2();
-	tri.getSide3 = getSide3() + t.getSide3();
-}
-
 // Getters
 int Triangle::getSide1()
 {
@@ -69,6 +58,12 @@ int Triangle::getSide3()
 	return side3;
 }
 
+// Calculates Area
+int Triangle::getArea() {
+	int p = getPerimeter();
+	return sqrt(p * (p - side1) * (p - side2) * (p - side3));
+}
+
 // Setters
 void Triangle::setSide1(int side1)
 {
@@ -81,6 +76,17 @@ void Triangle::setSide2(int side2)
 void Triangle::setSide3(int side3)
 {
 	this->side3 = side3;
+}
+
+inline Triangle Triangle::operator+(const Triangle& t)
+{
+	Triangle tri;
+
+	tri.setSide1(getSide1() + t.side1);
+	tri.setSide2(getSide2() + t.side2);
+	tri.setSide3(getSide3() + t.side3);
+	
+	return tri;
 }
 
 // Calculates perimeter

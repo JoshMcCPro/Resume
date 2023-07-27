@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\Users\JoshM\OneDrive\Desktop\ComputerScience2_Final\Main.cpp(81): warning C4715: 'MainMenu': not all control paths return a value
+  ComputerScience2_Final.vcxproj -> C:\Users\JoshM\OneDrive\Desktop\ComputerScience2_Final\x64\Debug\ComputerScience2_Final.exe

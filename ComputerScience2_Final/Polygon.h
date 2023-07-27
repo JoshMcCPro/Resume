@@ -34,6 +34,8 @@ public:
 	int randomNbr(int highestNbr);
 	// Randomly produces answers to the problem
 	void Answers(int answer, int highestNbr);
+
+	Polygon operator+(const Polygon P);
 };
 
 // Constructors
@@ -49,6 +51,14 @@ Polygon::Polygon(string name, string description, int difficulty, int points)
 	this->difficulty = difficulty;
 	this->points = points;
 }
+
+Polygon Polygon::operator+(const Polygon P)
+{
+	Polygon Poly;
+
+	return Poly;
+}
+
 
 // Getters
 string Polygon::getName()

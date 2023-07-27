@@ -108,7 +108,7 @@ int Gameplay::PlayerRoll(Player player)
 		try
 		{
 			cout << "Please roll to see who will go first.(Highest Goes First)" << endl;
-			cout << player.getName() << " Roll First." << endl;
+			cout << player.getName() << " Please Roll." << endl;
 			cout << "(A) Roll" << endl;
 			cin >> Answer;
 

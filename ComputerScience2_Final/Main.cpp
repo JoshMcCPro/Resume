@@ -113,6 +113,8 @@ void PlayersNames()
 // It finds out who is going first
 void WhosFirst()
 {
+	srand(time(NULL));
+
 	do
 	{
 		bArgument = false;
@@ -128,15 +130,17 @@ void WhosFirst()
 			if (player[0].getDiceNbr() > player[1].getDiceNbr())
 			{
 				cout << player[0].getName() + " is now player one!" << endl;
-				player[0].setName(player[0].getName()); // player 1 is staying player 1
-				player[1].setName(player[1].getName()); // player 2 is staying player 2
-
 			}
 			else if (player[0].getDiceNbr() < player[1].getDiceNbr())
 			{
-				cout << player[1].getName() + " is now player one!" << endl;
-				player[0].setName(player[1].getName()); // player 2 is becoming player 1
-				player[1].setName(player[0].getName()); // player 1 is becoming player 2
+				string Player1Name = player[0].getName();
+				string Player2Name = player[1].getName();
+
+				player[0].setName(Player2Name); // player 2 is becoming player 1
+				player[1].setName(Player1Name); // player 1 is becoming player 2
+
+				cout << player[0].getName() + " is now player one!" << endl;
+
 
 			}
 			else if (player[0].getDiceNbr() == player[1].getDiceNbr())
