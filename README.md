@@ -10,9 +10,9 @@ A dynamic text menu-based application built using MySQL and C++. Manipulate and 
 ## Data Structures Final: 
 Experience a unique twist on the classic Tower of Hanoi problem with my C++ game. Instead of circles, you'll encounter letters to sort in alphabetical order – a challenging and entertaining experience.
 
-![Screenshot (87)](https://github.com/JoshMcCPro/Resume/assets/63482770/922b490b-b7aa-47d8-83e0-8672ea2d5923)
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/b9898907-c96c-4c61-aa38-de190c7e1332" width="250" height="400">
 
-![UML](https://github.com/JoshMcCPro/Resume/assets/63482770/b9898907-c96c-4c61-aa38-de190c7e1332)
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/922b490b-b7aa-47d8-83e0-8672ea2d5923" width="600" height="400"> 
 
 ## Computer Science 2 Final: 
 Test your geometry knowledge in this engaging 2-player game. Roll the dice to decide who goes first, then take turns answering geometry math questions with varying point values. Can you be the ultimate geometry master?
@@ -20,10 +20,8 @@ Test your geometry knowledge in this engaging 2-player game. Roll the dice to de
 ## Java Software Development Final: 
 Embrace the addictive world of cookies in this Java-based game inspired by "Cookie Clicker." Click your way to cookie riches, unlock upgrades like Mines, Grandmas, and Farms, and earn achievements as you bake your way to success!
 
-![Final_UML](https://github.com/JoshMcCPro/Resume/assets/63482770/44ef2d4d-09b4-4f80-ad82-030ebd343385)
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/44ef2d4d-09b4-4f80-ad82-030ebd343385" width="400" height="300"> 
 
-![CookieClicker](https://github.com/JoshMcCPro/Resume/assets/63482770/7b695677-2657-4925-b949-ddf35eb8a4fc)
-
-With these projects, I aim to impress and inspire. Join me on this exciting journey of creativity and technical prowess as I strive to make a mark in the world of Computer Science and software development.
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/7b695677-2657-4925-b949-ddf35eb8a4fc" width="400" height="300"> 
 
 ### Check out my "Resume" repository and get a glimpse of the potential I bring to the table. Let's connect and explore the possibilities of working together to shape a brighter digital future!
