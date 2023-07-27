@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
-#include <sqlite3.h>
+#include "sqlite-amalgamation/sqlite3.h"
 #include "Tables.h"
 using namespace std;
 
@@ -71,6 +71,7 @@ void AddEmployee(const char* s)
 	if (exit != SQLITE_OK) {
 		cerr << "Error Insert" << endl;
 		sqlite3_free(messaggeError);
+	
 	}
 	else
 	{

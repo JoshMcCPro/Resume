@@ -2,8 +2,9 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
-#include <sqlite3.h>
+#include "sqlite-amalgamation/sqlite3.h"
 #include "Tables.h"
+
 using namespace std;
 
 // Update Employee 

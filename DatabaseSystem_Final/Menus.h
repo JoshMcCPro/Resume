@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
-#include <sqlite3.h>
+#include "sqlite-amalgamation/sqlite3.h"
 #include "AddMenuActions.h"
 #include "UpdateMenuActions.h"
 #include "DeleteMenuActions.h"
