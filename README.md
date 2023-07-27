@@ -22,7 +22,7 @@ Embrace the addictive world of cookies in this Java-based game inspired by "Cook
 
 ![Final_UML](https://github.com/JoshMcCPro/Resume/assets/63482770/44ef2d4d-09b4-4f80-ad82-030ebd343385)
 
-### ![CookieClicker](https://github.com/JoshMcCPro/Resume/assets/63482770/7b695677-2657-4925-b949-ddf35eb8a4fc)
+![CookieClicker](https://github.com/JoshMcCPro/Resume/assets/63482770/7b695677-2657-4925-b949-ddf35eb8a4fc)
 
 With these projects, I aim to impress and inspire. Join me on this exciting journey of creativity and technical prowess as I strive to make a mark in the world of Computer Science and software development.
 
