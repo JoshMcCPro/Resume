@@ -1,4 +1,4 @@
-Welcome to my GitHub repository - "resume" - where I showcase all my remarkable Computer Science projects!
+# Welcome to my GitHub repository - "Resume" - where I showcase all my remarkable Computer Science projects!
 
 In this repository, you'll find a collection of my finest creations, demonstrating my skills and passion for software development. From innovative games to practical applications, each project represents my journey as a Computer Science student and aspiring entrepreneur.
 
