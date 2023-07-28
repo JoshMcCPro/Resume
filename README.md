@@ -5,11 +5,21 @@ In this repository, you'll find a collection of my finest creations, demonstrati
 Dive into my "resume" repository to explore:
 
 ## Web Development 1: (HTML/CSS/JS)
-I created a website that showcases the projects I have created in web development. The projects include Dice Roll, Pick a Card, CSS repositioning, and Sign language. The final project in the semester was the sign language where it translates words into sign  language. Feel free to check the website!
+I created a website that showcases the projects I have created in web development. The projects include Dice Roll, Pick a Card, CSS repositioning, and Sign language. 
+* **Dice Roll:** A simple web application that simulates rolling dice using HTML, CSS, and JavaScript.
+* **Pick a Card:** A card picking game implemented with HTML, CSS, and JavaScript.
+* **CSS Repositioning:** A demonstration of CSS positioning techniques for creating responsive layouts.
+* **Sign Language:** A web app that translates words into sign language using HTML, CSS, and JavaScript.
 
-<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/6ae4c43f-094b-45be-b965-5fdb52795114" width="400" height="250">
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/6ae4c43f-094b-45be-b965-5fdb52795114" width="425" height="250">
 
-<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/66895b55-46ff-42d1-9a4c-360ae838854a" width="400" height="250">
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/f784197b-611c-4513-975b-e5d398604caa" width="425" height="250">
+
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/e2301f8e-11f1-4d8f-a5c7-25ecfeb41b00" width="425" height="250">
+
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/32e51724-31a7-4f52-b32d-3f39dd866ddc" width="425" height="250">
+
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/66895b55-46ff-42d1-9a4c-360ae838854a" width="425" height="250">
 
 ## Systems Programming Final: (ASM)
 Using ASM I created a program that will copy text from a document a paste it into the destination of your choosing.
