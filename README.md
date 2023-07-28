@@ -4,6 +4,16 @@ In this repository, you'll find a collection of my finest creations, demonstrati
 
 Dive into my "resume" repository to explore:
 
+## Web Development 1: (HTML/CSS/JS)
+I created a website that showcases the projects I have created in web development. The projects include Dice Roll, Pick a Card, CSS repositioning, and Sign language. The final project in the semester was the sign language where it translates words into sign  language. Feel free to check the website!
+
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/6ae4c43f-094b-45be-b965-5fdb52795114" width="400" height="250">
+
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/66895b55-46ff-42d1-9a4c-360ae838854a" width="400" height="250">
+
+## Systems Programming Final: (ASM)
+Using ASM I created a program that will copy text from a document a paste it into the destination of your choosing.
+
 ## Database Final: (C++/SQL)
 A dynamic text menu-based application built using SQL and C++. Manipulate and access data in a database, handling employees, customers, orders, products, product types, and time clock records with ease.
 
