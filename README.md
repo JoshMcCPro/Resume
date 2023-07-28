@@ -14,9 +14,9 @@ A dynamic text menu-based application built using MySQL and C++. Manipulate and 
 ## Data Structures Final: 
 Experience a unique twist on the classic Tower of Hanoi problem with my C++ game. Instead of circles, you'll encounter letters to sort in alphabetical order – a challenging and entertaining experience.
 
-<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/4c859791-a880-43a1-a417-cf87a1fdda20" width="250" height="400">
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/ae078fb1-6623-4592-967a-91eda5e49780" width="250" height="400">
 
-<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/a681445a-dda5-4be0-be25-84a7d67d3b92" width="400" height="400"> 
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/0e8bc706-0b82-42a6-a0f0-cfb4c246501d" width="400" height="400"> 
 
 ## Computer Science 2 Final: 
 Test your geometry knowledge in this engaging 2-player game. Roll the dice to decide who goes first, then take turns answering geometry math questions with varying point values. Can you be the ultimate geometry master?
@@ -26,7 +26,7 @@ Test your geometry knowledge in this engaging 2-player game. Roll the dice to de
 ## Java Software Development Final: 
 Embrace the addictive world of cookies in this Java-based game inspired by "Cookie Clicker." Click your way to cookie riches, unlock upgrades like Mines, Grandmas, and Farms, and earn achievements as you bake your way to success!
 
-<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/6fee6b91-bf30-4cf4-871e-a062d3052ff2" width="400" height="300"> 
+<img src="https://github.com/JoshMcCPro/Resume/assets/63482770/5a759f71-dea6-49fd-bb3e-5829713d8b9c" width="400" height="300"> 
 
 <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/16e34e08-6c55-4eab-b690-9c546fe5fdcb" width="400" height="300"> 
 
