@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Text to Sign Language</title>
+        <style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #333333;
+  color: #dddddd;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #666666;
+  margin: 1rem 0;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 80%;
+  background-color: #222222;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.control {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.text-control {
+  flex-grow: 4;
+  margin: 0.5rem;
+  resize: vertical;
+  height: 50px;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#Toggle {
+  margin: 0.5rem;
+}
+
+.display-stage {
+  height: 400px;
+  width: 80%;
+  background-color: #222222;
+  padding: 10px;
+  margin: 2rem auto;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.chr-img {
+  height: 70px; 
+  vertical-align: middle;
+  border-radius: 5px;
+  border: solid #222222 1px;
+}
+
+.chr-non-img {
+  font-size: 70px;
+  vertical-align: middle;
+}
+
+
+        </style>
+    </head>
+    <body> 
+        <h1 id="page-heading">Text to Sign Language</h1>
+        <hr/>
+        <div class="controls">
+                <label class="control" for="user-text">Text to Translate:</label>
+                <textarea id="user-text" class="control text-control" placeholder="Enter text here..." onkeypress="detectKey()"></textarea>
+                <button class="control" type="button" onclick="convert()">Translate</button>
+                No-Label: <input type="checkbox" name="" id="Toggle">
+                
+        </div>
+        <hr/>
+        <div class="display-stage">
+
+        </div>
+        <hr/>
+        <script>
+console.log("Running application...");
+
+const alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+function convert() {
+    const textareaEl = document.querySelector(".text-control");
+    const stageEl = document.querySelector(".display-stage");
+    const checkbox = document.getElementById("Toggle");
+
+    const text = textareaEl.value.toLowerCase();
+
+    let html = "";
+
+    for (let i = 0; i < text.length; i++) {
+        const chr = text[i];
+
+        if (alphabet.indexOf(chr) !== -1) {
+            if (checkbox.checked) {
+                html += `<img class="chr-img" src="https://cs.indstate.edu/~lmay1/assets/images/sign-language/${chr}.png">`;
+            } else {
+                html += `<img class="chr-img" src="https://cs.indstate.edu/~lmay1/assets/images/sign-language/${chr}-label.png">`;
+            }
+            
+        }
+        else if (chr === " ") {
+            html += `<span class="chr-non-img">&nbsp;</span>`;
+        }
+        else if (chr === "&") {
+            html += `<span class="chr-non-img">&amp;</span>`;
+        }
+        else if (chr === "<") {
+            html += `<span class="chr-non-img">&lt;</span>`;
+        }
+        else if (chr === "\n") {
+            html += `<br/><br/><br/>\n`;
+        }
+        else {
+            html += `<span class="chr-non-img">${chr}</span>`;
+        }
+        
+    }
+    stageEl.innerHTML = html;
+}
+
+function detectKey() {
+    const ev = window.event;
+    if (ev.keyCode === 13 && !ev.shiftKey) {
+        ev.preventDefault();
+        convert();
+    }
+}
+        </script>
+    </body>
+</html>

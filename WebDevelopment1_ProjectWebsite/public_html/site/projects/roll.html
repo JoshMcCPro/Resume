@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roll a Die!</title>
+        <style>
+body {
+    background-color: beige;
+}
+#main-heading {
+    text-align: center;
+    font-size: 72px;
+    -webkit-text-fill-color: burlywood;
+    -webkit-text-stroke: 1px;
+}
+#die {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-bottom: 50px;
+    
+}
+button {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:burlywood;
+}
+#controls {
+    background-color: rgba(0,0,0,0.2);
+    padding: 50px;
+}
+        </style>
+    </head>
+    <body>
+        <h1 id="main-heading">Roll a Die!</h1>
+        <div id="stage">
+            <img id="die" onclick="clickRoll()" src="https://cs.indstate.edu/~lmay1/assets/dice/1.png"/>
+        </div>
+        <div id="controls">
+            <button type = "button" onclick="clickRoll()">Roll the Die!</button>
+        </div>
+        <script>
+            function clickRoll() {
+                console.log("Roll was clicked!!!");
+                window.alert("Roll was clicked!!!");
+
+                let num = roll();
+
+                let imgEl = document.getElementById("die");
+                let imageUrl = `https://cs.indstate.edu/~lmay1/assets/dice/${num}.png`;
+                imgEl.setAttribute("src", imageUrl);
+                
+            }
+
+            function roll() {
+                return Math.floor(Math.random() * 6) + 1;
+            }
+
+        </script>
+    </body>
+</html>
