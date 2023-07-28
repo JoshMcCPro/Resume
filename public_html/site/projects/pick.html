@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pick a card</title>
+        <style>
+body {
+    background-color: beige;
+}
+#main-heading {
+    text-align: center;
+    font-size: 72px;
+    -webkit-text-fill-color: burlywood;
+    -webkit-text-stroke: 1px;
+}
+#stage {
+    padding-bottom: 50px;
+}
+#card {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: white;
+}
+button {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:burlywood;
+}
+#controls {
+    background-color: rgba(0,0,0,0.2);
+    display: block;
+    padding: 50px;
+}
+#h2 {
+    text-align: center;
+}
+#Answer {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <h1 id="main-heading">Pick A Card!</h1>
+        <div id="stage">
+            <img id="card" onclick="clickRoll()" src="https://cs.indstate.edu/~lmay1/assets/cards/back.png"/>
+        </div>
+        <div id="controls">
+            <button id="button" onclick="onClick()">Pick A Card!</button>
+        </div>
+        <h2 id="h2">Answer</h2>
+        <p id="Answer">The reason why the button doesn't seem like it changes the card is because you have drawn the same card.</p>
+        <script>
+function onClick() {
+  
+    let imgEl = document.getElementById("card");
+    let card = drawCard();
+
+    let imageUrl = `https://cs.indstate.edu/~lmay1/assets/cards/${card}.png`;
+    imgEl.setAttribute("src", imageUrl);
+}
+
+function drawCard() {
+    let values = ["a", "2", "3", "4", "5", "6", "7", "8", "9", "t", "j", "q", "k"];
+
+    let suits = ["s", "h", "c", "d"];
+
+    let deck = [];
+
+    for (let i = 0; i < suits.length; i++) {
+        for (let j = 0; j < values.length; j++) {
+            let card = values[j] + suits[i];
+            deck.push(card);
+        }
+    }
+
+    let randomCard = deck[Math.floor(Math.random() * deck.length)];
+
+    let fancyValues = {
+        t : "10",
+        j : "jack",
+        q : "queen",
+        k : "king",
+        a : "ace",
+    };
+
+    let fancySuits = {
+        s : "spades",
+        h : "hearts",
+        c : "clubs",
+        d : "diamonds",
+    };
+
+    let fancyValue = fancyValues[randomCard.charAt(0)];
+
+    if (!fancyValue) { fancyValue = randomCard.charAt(0)}
+
+    let suitCharacter = randomCard.charAt(1);
+
+    let fancySuit = fancyValue + "_of_" + fancySuits[suitCharacter];
+
+    return fancySuit;
+
+}
+        </script>
+    </body>
+</html>
