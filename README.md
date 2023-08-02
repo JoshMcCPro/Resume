@@ -11,19 +11,19 @@ Hello there! I am excited to share my journey as a Computer Science student and 
 ## 🚀 The Weapon Thrower - Unreal Engine/C++ 
 
 <div align="center">
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/0f60e415-7f64-4c96-84e3-4fccee894639" alt="The Weapon Thrower" width="125">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/0f60e415-7f64-4c96-84e3-4fccee894639" alt="The Weapon Thrower" width="120">
 
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/33b6644d-85b4-447f-8e8d-3f9643f31641" alt="The Weapon Thrower" width="125">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/33b6644d-85b4-447f-8e8d-3f9643f31641" alt="The Weapon Thrower" width="120">
 
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/b0b243ae-f534-4f58-8484-c3e812abcb17" alt="The Weapon Thrower" width="125">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/b0b243ae-f534-4f58-8484-c3e812abcb17" alt="The Weapon Thrower" width="120">
 
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/218435b0-9427-45ab-b03b-4078324db4f3" alt="The Weapon Thrower" width="125">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/218435b0-9427-45ab-b03b-4078324db4f3" alt="The Weapon Thrower" width="120">
 
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/a0cf8632-ef05-44e9-a163-b1cf905f151f" alt="The Weapon Thrower" width="125">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/a0cf8632-ef05-44e9-a163-b1cf905f151f" alt="The Weapon Thrower" width="120">
 
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/2af63327-f7cc-47a5-a846-f176e9176161" alt="The Weapon Thrower" width="125">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/2af63327-f7cc-47a5-a846-f176e9176161" alt="The Weapon Thrower" width="120">
 
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/fec6b557-df76-4712-935a-153b9db95694" alt="The Weapon Thrower" width="125">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/fec6b557-df76-4712-935a-153b9db95694" alt="The Weapon Thrower" width="120">
 </div>
 
 Dive into the world of precision and skill with "The Weapon Thrower" - a thrilling game where players test their accuracy by throwing swords into melons. The goal is to score as many points as possible by sticking swords into the melon without hitting others. Aim carefully to hit special targets for high bonus points, but beware of hitting your own swords!
@@ -85,7 +85,7 @@ Experience a dynamic text menu-based application built using SQL and C++. This p
 ## 🎲 Data Structures Final: (C++/OOP)
 
 <div align="center">
-  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/ae078fb1-6623-4592-967a-91eda5e49780" alt="Data Structures Final" width="300">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/ae078fb1-6623-4592-967a-91eda5e49780" alt="Data Structures Final" width="175">
 
   <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/0e8bc706-0b82-42a6-a0f0-cfb4c246501d" alt="Data Structures Final" width="300"> 
 </div>
