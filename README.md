@@ -64,13 +64,13 @@ Explore these projects to witness my skills in frontend development and creating
 
 > Check out the directory: **(WebDevelopment1_ProjectWebsite)**
 
-## 💻 Systems Programming Final: (ASM)
+## 💻 Systems Programming Final - ASM
 
 In this directory, I present a program created using ASM that allows users to copy text from a document and paste it into a destination of their choosing. This project demonstrates my proficiency in Systems Programming and low-level language development.
 
 > Check out the directory: **(SystemsProgramming_Final)**
 
-## 🗄️ Database Final: (C++/SQL)
+## 🗄️ Database Final - C++/SQL
 
 <div align="center">
   <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/60488e35-35ef-4e3e-8460-7b9f49f9b6b2" alt="Database Final" width="500">
@@ -82,7 +82,7 @@ Experience a dynamic text menu-based application built using SQL and C++. This p
 
 > Check out the directory: **(DatabaseSystem_Final)**
 
-## 🎲 Data Structures Final: (C++/OOP)
+## 🎲 Data Structures Final - C++/OOP
 
 <div align="center">
   <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/ae078fb1-6623-4592-967a-91eda5e49780" alt="Data Structures Final" width="175">
@@ -94,7 +94,7 @@ Immerse yourself in a unique twist on the classic Tower of Hanoi problem with my
 
 > Check out the directory: **(C++DataStructures_Final)**
 
-## 🎮 Computer Science 2 Final: (C++)
+## 🎮 Computer Science 2 Final - C++
 
 <div align="center">
   <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/46d37dc4-991c-4eb9-b83e-e9cae77f0dc0" alt="Computer Science 2 Final" width="300">
@@ -104,7 +104,7 @@ Test your geometry knowledge in this engaging 2-player game. Roll the dice to de
 
 > Check out the directory: **(ComputerScience2_Final)**
 
-## ☕ Java Software Development Final: (Java)
+## ☕ Java Software Development Final - Java
 
 <div align="center">
   <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/5a759f71-dea6-49fd-bb3e-5829713d8b9c" alt="Java Software Development Final" width="500"> 
