@@ -6,7 +6,9 @@ Welcome to my GitHub Portfolio showcasing remarkable computer science projects. 
 
 ## The Weapon Thrower - Unreal Engine/C++
 
-![The Weapon Thrower](https://github.com/JoshMcCPro/Resume/assets/63482770/0f60e415-7f64-4c96-84e3-4fccee894639)
+<div align="center">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/0f60e415-7f64-4c96-84e3-4fccee894639" alt="Database Final" height="500">
+</div>
 
 Dive into the world of precision and skill with "The Weapon Thrower," a thrilling game where players test their accuracy by throwing swords into melons. The goal is to score as many points as possible by sticking swords into the melon without hitting others. Aim carefully to hit special targets for high bonus points, but beware of hitting your own swords!
 
@@ -52,6 +54,10 @@ Experience a dynamic text menu-based application built using SQL and C++. This p
 ## Data Structures Final - C++/OOP
 
 Immerse yourself in a unique twist on the classic Tower of Hanoi problem with my C++ game. Instead of circles, you'll encounter letters to sort in alphabetical order – a challenging and entertaining experience.
+
+<div align="center">
+  <img src="https://github.com/JoshMcCPro/Resume/assets/63482770/b5e650aa-0022-4a49-ba68-79653e891d14" alt="Database Final" height="400">
+</div>
 
 [Explore Data Structures Final](DataStructures_Final)
 
