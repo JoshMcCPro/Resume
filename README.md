@@ -6,10 +6,10 @@ Welcome to my GitHub Portfolio showcasing my computer science projects. I am a d
 
 ## Bug Tracker - C++/Qt/Azure SQL Server/Git
 
-•	Developed a comprehensive bug tracker application with advanced security measures.
-•	Ensured robust user authentication through code verification, hashing, salting, and keying.
-•	Secured data storage through Azure SQL Server and delivered an intuitive user interface using Qt.
-•	Used git for the application’s version control.
+- Developed a comprehensive bug tracker application with advanced security measures.
+- Ensured robust user authentication through code verification, hashing, salting, and keying.
+- Secured data storage through Azure SQL Server and delivered an intuitive user interface using Qt.
+- Used git for the application’s version control.
 
 
 ## The Weapon Thrower - Unreal Engine/C++
