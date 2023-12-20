@@ -7,9 +7,8 @@ Welcome to my GitHub Portfolio showcasing my computer science projects. I am a d
 ## Bug Tracker - C++/Qt/Azure SQL Server/Git
 
 <div align="center">
-  <img src="https://github.com/JoshMcCPro/Resume/BugTracker/ScreenShots/BugTracker_Login.png" alt="Database Final" height="300">
-
-  <img src="https://github.com/JoshMcCPro/Resume/BugTracker/ScreenShots/BugTracker_SignUp.png" alt="Database Final" height="300">
+  <img src="BugTracker/ScreenShots/BugTracker_Login.png" alt="Database Final" height="300">
+  <img src="BugTracker/ScreenShots/BugTracker_SignUp.png" alt="Database Final" height="300">
 </div>
 
 - Developed a comprehensive bug tracker application with advanced security measures.
